@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Java Test</title>
+<meta charset="GBK">
+</head>
+<body>
+<form action="request_demo03.jsp" method="post">
+	姓名：<input type="text" name="uname"><br>
+	性别：<input type="radio" name="gender" value="male" checked>
+		  <input type="radio" name="gender" value="female" ><br>
+	城市：<select name="city">
+			 <option value="北京">北京</option>
+			 <option value="天津">天津</option>
+			 <option value="洛阳">洛阳</option>
+		  </select><br>
+	兴趣：<input type="checkbox" name="**inst" value="唱歌">唱歌
+	      <input type="checkbox" name="**inst" value="跳舞">跳舞
+	      <input type="checkbox" name="**inst" value="游泳">游泳
+	      <input type="checkbox" name="**inst" value="看书">看书
+	      <input type="checkbox" name="**inst" value="旅游">旅游
+		  <br>
+	介绍：<textarea cols="30" rows="3" name="note"></textarea>
+	<br>
+	<input type="hidden" name="id" value="1">
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+</form>
+</body>
+</html>
